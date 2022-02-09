@@ -37,7 +37,9 @@ Enhanced game display, e.g. parachute
 The project files and folders are organized as follows:
 ```
 root                    (project root folder)
-+-- jumper.py           (source code for game)
++-- jumper              (source code for game)
+  +-- game              (specific classes)
+  +-- __main__.py       (program entry point)
 +-- README.md           (general info)
 ```
 
@@ -47,6 +49,6 @@ root                    (project root folder)
 
 ## Authors
 ---
-* Adrian Ruiz
-* Mario Rengel
-* Jon Lanenga
+Adrian Ruiz: player, letter
+Mario Rengel: Jumper
+Jon Lanenga: Word Class, Main
