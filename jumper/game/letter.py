@@ -1,4 +1,4 @@
-class letter:
+class Letter:
     def __init__(self):
         self._letter = ""
 
