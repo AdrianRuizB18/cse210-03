@@ -1,9 +1,18 @@
-class Draw:
-    ​​
-    def draw__(self):
-        self.Wrong = 1
+class Jumper:
+    ​
+#Iniciate
+    def __init__(self):
+        self.__draw()
+        self.__Wrong = 0
 ​
-        if self.Wrong == 1:
+#updates the "Wrong" variable
+    def __set_Wrong(Mistake):
+        self.__Wrong = Wrong
+​
+#Draw the parachute depending on how many wrong answer the user has given
+    def __draw(Wrong):
+​
+        if Wrong == 1:
             print()
             print(' ____ ')
             print('/____\ ')
@@ -15,7 +24,7 @@ class Draw:
             print()
             print('^^^^^^^')
 ​
-        elif self.Wrong == 2:
+        elif Wrong == 2:
             print()
             print('/____\ ')
             print('\    / ')
@@ -26,7 +35,7 @@ class Draw:
             print()
             print('^^^^^^^')
 ​
-        elif self.Wrong == 3:
+        elif Wrong == 3:
             print()
             print('\    / ')
             print(' \  / ')
@@ -36,7 +45,7 @@ class Draw:
             print()
             print('^^^^^^^')
 ​
-        elif self.Wrong == 4:
+        elif Wrong == 4:
             print()
             print(' \  / ')
             print('   O  ')
@@ -45,7 +54,7 @@ class Draw:
             print()
             print('^^^^^^^')
 ​
-        elif self.Wrong == 5:
+        elif Wrong == 5:
             print()
             print('   X  ')
             print('  /|\ ')
