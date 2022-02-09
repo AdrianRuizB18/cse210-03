@@ -1,5 +1,5 @@
 from jumper.game import word
-from jumper.game import draw  
+from jumper.game import jumper  
 from jumper.game import player 
 from jumper.game import letter
 
