@@ -49,6 +49,6 @@ root                    (project root folder)
 
 ## Authors
 ---
-Adrian Ruiz: player, letter
-Mario Rengel: Jumper
-Jon Lanenga: Word Class, Main
+Adrian Ruiz:  (adrian_rb@byui.edu) {player, letter}
+Mario Rengel: (mariogrr@byui.edu) {Jumper}
+Jon Lanenga: (lan21005@byui.edu) {Word Class, Main}
